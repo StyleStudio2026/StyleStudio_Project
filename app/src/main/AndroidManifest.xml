@@ -21,6 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- شاشة اختيار النمط (الخطوة 3) -->
+        <activity
+            android:name=".StyleActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
