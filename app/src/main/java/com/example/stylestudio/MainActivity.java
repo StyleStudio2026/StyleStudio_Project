@@ -1,5 +1,6 @@
 package com.example.stylestudio;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,8 +15,9 @@ public class MainActivity extends AppCompatActivity {
 
         Button startButton = findViewById(R.id.startButton);
 
+        // فتح شاشة اختيار النمط
         startButton.setOnClickListener(v -> {
-            setContentView(R.layout.activity_style);
+            startActivity(new Intent(MainActivity.this, StyleActivity.class));
         });
     }
 }
