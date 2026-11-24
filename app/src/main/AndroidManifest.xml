@@ -26,6 +26,11 @@
         <activity
             android:name=".StyleActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
